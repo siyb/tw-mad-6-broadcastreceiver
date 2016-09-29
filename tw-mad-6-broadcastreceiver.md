@@ -126,7 +126,7 @@ public class Mbc
 * If you use LocalBroadcastManager take the components lifecycle into account
     * Make sure to register / unregister the BroadcastReceivers within the appropriate lifecycle method (e.g. onResume(), onPause())
 
-## Local Broadcasts - 2 - Motivation
+## Local Broadcasts - 2 - Example
 
 ```java
 public class LocalBroadcastActivity extends Activity { 
