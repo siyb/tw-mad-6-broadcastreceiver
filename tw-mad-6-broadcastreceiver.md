@@ -103,10 +103,6 @@ public class Mbc
 
   @Override 
   public void onReceive(Context context, Intent intent) { 
-    // modifications to the intent will not
-    // be visible in activity since we 
-    // receive a copy of the original intent when calling
-    // registerReceiver 
     LOGGER.debug("Broadcast received \\o/ "
       + intent.hashCode()); 
   } 
